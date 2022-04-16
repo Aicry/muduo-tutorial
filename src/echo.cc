@@ -78,7 +78,7 @@ int main(int argc, char* argv[])
 {
   setLogging(argv[0]);
 
-  LOG_INFO << "pid = " << getpid() << ", tid = " << CurrentThread::tid();
+  LOG_INFO << "mypid = " << getpid() << ", tid = " << CurrentThread::tid();
   EventLoop loop;
   InetAddress listenAddr(2007);
   EchoServer server(&loop, listenAddr);
