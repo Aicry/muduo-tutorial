@@ -11,13 +11,13 @@ CXXFLAGS = -g -O0 -Wall -Wextra -Werror \
 	   -march=native -rdynamic \
 	   -I$(MUDUO_INCLUDE)
 
-LDFLAGS = -L$(MUDUO_LIBRARY) -lmuduo_net -lmuduo_base -lpthread -lrt
+LDFLAGS = -L$(MUDUO_LIBRARY) -lmuduo_net -lmuduo_base -lmuduo_http -lpthread -lrt
 
-all: echo
+all: WeChatApp
 clean:
-	rm -f echo core
+	rm -f WeChatApp core
 
-echo: $(SRC)/echo.cc
-	g++ $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+WeChatApp: $(SRC)/HttpServer_test.cc
+	g++ $(CXXFLAGS) -o $@ $^ $(LDFLAGS) `mysql_config --cflags --libs` 
 
 .PHONY: all clean

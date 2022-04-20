@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hms/muduo-tutorial/src/Dao.h
+iostream
+-
+string
+-
+MyDB.hh
+/home/hms/muduo-tutorial/src/MyDB.hh
+
+/home/hms/muduo-tutorial/src/HttpServer_test.cc
+muduo/net/http/HttpServer.h
+-
+muduo/net/http/HttpRequest.h
+-
+muduo/net/http/HttpResponse.h
+-
+muduo/net/EventLoop.h
+-
+muduo/base/Logging.h
+-
+iostream
+-
+map
+-
+string.h
+-
+Dao.h
+/home/hms/muduo-tutorial/src/Dao.h
+MyDB.hh
+/home/hms/muduo-tutorial/src/MyDB.hh
+
+/home/hms/muduo-tutorial/src/MyDB.hh
+iostream
+-
+string
+-
+mysql/mysql.h
+-
+

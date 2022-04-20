@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
 
-project(echo CXX)
+project(hmspro CXX)
 
 if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE "debug")
@@ -45,6 +45,8 @@ message(STATUS ${Muduo_INCLUDE_DIR})
 message(STATUS ${Muduo_LIBRARY_DIR})
 
 include_directories(${Muduo_INCLUDE_DIR})
+#include_directories(../src/)
+include_directories(/usr/include/mysql)
 find_library(muduo_base muduo_base)
 find_library(muduo_net muduo_net)
 find_library(muduo_http muduo_http)
@@ -57,13 +59,20 @@ include_directories(${Boost_INCLUDE_DIRS})
 
 include_directories(${PROJECT_SOURCE_DIR})
 
-add_executable(echo ../src/echo.cc)
-target_link_libraries(echo ${muduo_net})
-target_link_libraries(echo ${muduo_base})
-target_link_libraries(echo pthread rt)
+#set(SRC_FILES "../src/core/*.cc"  "../src/core/*.h")
 
-add_executable(cbpro ../src/HttpServer_test.cc)
-target_link_libraries(cbpro ${muduo_net})
-target_link_libraries(cbpro ${muduo_base})
-target_link_libraries(cbpro ${muduo_http})
-target_link_libraries(cbpro pthread rt)
+
+#aux_source_directory(. SCR_LIST)
+
+#FILES(GLOB_RECURSE CURRENT_INCLUDE "../src/*.h");
+#FILES(GLOB_RECURSE CURRENT_SOURCES "../src/*.cc");
+
+
+add_executable(hmspro ../src/HttpServer_test.cc)
+
+target_link_libraries(hmspro ${muduo_net})
+target_link_libraries(hmspro ${muduo_base})
+target_link_libraries(hmspro ${muduo_http})
+target_link_libraries(hmspro mysqlclient)
+target_link_libraries(hmspro pthread rt)
+
