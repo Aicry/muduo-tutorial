@@ -3,7 +3,10 @@
 #include<iostream>
 #include<string>
 #include<mysql.h>
+#include"Dao.h"
 using namespace std;
+
+
 
 class MyDB
 {
@@ -11,7 +14,8 @@ class MyDB
     MyDB();
     ~MyDB();
     bool initDB(string host,string user,string pwd,string db_name); //连接mysql
-    bool exeSQL(string sql);   //执行sql语句
+    string loginSQL(string sql);
+    string RegisterSQL(string sql);
     private:
     MYSQL *mysql;          //连接mysql句柄指针
     MYSQL_RES *result;    //指向查询结果的指针

@@ -10,13 +10,13 @@ endif()
 
 add_subdirectory(muduo)
 include_directories("muduo")
-#include_directories(../src/)
-include_directories(/usr/include/mysql)
+#include_directories("../src/")
+#include_directories("../src/ajson/")
+include_directories("/usr/include/mysql")
 
 
 
-add_executable(hmspro ../src/HttpServer_test.cc )
-#add_executable(hmspro ../src/HttpServer_test.cc )
+add_executable(hmspro "../src/HttpServer_test.cc"  "../src/MyDB.cc"  "../src/Dao.cc" )
 target_link_libraries(hmspro muduo_net)
 target_link_libraries(hmspro muduo_base)
 target_link_libraries(hmspro muduo_http)

@@ -1,16 +1,12 @@
 #include<iostream>
-#include"MyDB.hh"
+
 #include<sstream>
 using namespace std;
 
 
 int main()
 {
-    MyDB db; 
-    //连接数据库
-    db.initDB("localhost","root","521011","WeChatApp");
-   
-    db.exeSQL("SELECT * from user_Tab;");
-   
-    return 0;
+    string a="select * from user_Tab where userId = '000124' and pwd = 'hhh';";
+   const char * res =a.c_str();
+    cout<<res;
 }

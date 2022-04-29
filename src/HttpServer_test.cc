@@ -7,13 +7,14 @@
 #include <map>
 #include <string.h>
 
-//#include "Dao.h"
-//#include "MyDB.h"
+#include "Dao.h"
+#include "MyDB.h"
 using namespace muduo;
 using namespace muduo::net;
 
 bool benchmark = false;
 
+//MyDB mdb;                                     
 
 
 void onRequest(const HttpRequest& req, HttpResponse* resp)
@@ -35,21 +36,29 @@ void onRequest(const HttpRequest& req, HttpResponse* resp)
     resp->setStatusMessage("OK");
     resp->setContentType("text/html");
     resp->addHeader("Server", "Muduo");
-    string now = Timestamp::now().toFormattedString();
+    string now = Timestamp::now().toFormattedString();         
     resp->setBody("<html><head><title>swl</title></head>"
         "<body><h1>Hello swl</h1>Now is " + now +
         "</body></html>");
   }
   else if (req.path() == "/login")
-  { 
-    std::cout<<req.query()<<std::endl;
-   
-   // string result = dao.loginCheck(req.query());
+  {  
+    Dao dao;
     resp->setStatusCode(HttpResponse::k200Ok);
     resp->setStatusMessage("OK");
     resp->setContentType("text/plain");
     resp->addHeader("Server", "Muduo");  
-    resp->setBody("hmshms");
+    resp->setBody(dao.login(req.body()));
+    resp->setCloseConnection(true);
+  }
+  else if (req.path() == "/register")
+  { 
+    Dao dao;
+    resp->setStatusCode(HttpResponse::k200Ok);
+    resp->setStatusMessage("OK");
+    resp->setContentType("text/plain");
+    resp->addHeader("Server", "Muduo");  
+    resp->setBody(dao.Register(req.body()));
     resp->setCloseConnection(true);
   }
   else
@@ -57,15 +66,13 @@ void onRequest(const HttpRequest& req, HttpResponse* resp)
     resp->setStatusCode(HttpResponse::k404NotFound);
     resp->setStatusMessage("Not Found");
     resp->setCloseConnection(true);
+  
   }
 }
 
-
-
-
 int main(int argc, char* argv[])
 {
-    
+    //mdb.initDB("localhost","root","521011","WeChatApp");
 
   int numThreads = 0;
   if (argc > 1)
