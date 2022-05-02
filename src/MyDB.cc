@@ -34,34 +34,37 @@ bool MyDB::initDB(string host,string user,string passwd,string db_name)
     }  
     return true;  
 }
-string MyDB::loginSQL(string sql)
+
+vector<string> MyDB::loginSQL(string sql)
 {
-    
+    vector<string> res;
+    res.push_back("fail");
     cout<<"loginSQL_BEGIN"<<endl;
-    string userName="";
-    cout<<"test1"<<endl;
+   
     if (mysql_query(mysql,sql.c_str()))
     {
         cout<<"Query Error: "<<endl;
         cout<<mysql_error(mysql)<<endl;
-        return "fail";
+        return res;
     }
     else 
     {
         cout<<"Query Success: "<<endl;
         result = mysql_store_result(mysql);  //获取结果集
         int  num_rows=mysql_num_rows(result);  
+        int  num_fields = mysql_num_fields(result); 
         cout<<"num_rows"<<num_rows<<endl;   
-        if(num_rows==0)return "fail";//查出空行   
-        row=mysql_fetch_row(result);    
-        userName=row[2];  
-        cout<<row[0]<<"     "<<row[1]<<"    "<< row[2]<<endl;          
-        cout<<"userName :"<<userName<<endl;
-        return userName;
+        if(num_rows==0)return res;//查出空行  
+        row=mysql_fetch_row(result);   
+        for(int i=0;i<num_fields;i++){
+          res.push_back(row[i]);
+        }     
+        
+        return res;
        
     }
     cout<<"loginSQL_END"<<endl;
-    return "fail";
+    return res;
 
 }
 
@@ -124,6 +127,34 @@ string MyDB::RegisterSQL(string sql)
 
 }
 
+
+bool MyDB::submitSQL(string sql)
+{
+    cout<<sql<<endl;
+    //mysql_query()执行成功返回0,执行失败返回非0值。
+    if (mysql_query(mysql,sql.c_str()))
+    {
+        cout<<"Query Error: "<<mysql_error(mysql);
+        return false;
+    }
+    else  // result==NULL
+    {
+        if(mysql_field_count(mysql) == 0)   //代表执行的是update,insert,delete类的非查询语句
+            {
+                // (it was not a SELECT)
+                int num_rows = mysql_affected_rows(mysql);  //返回update,insert,delete影响的行数
+            }
+            else // error
+            {
+                cout<<"Get result error: "<<mysql_error(mysql);
+                return false;
+            }
+    }
+    
+
+    return true;
+
+}
 // bool MyDB::exeSQL(string sql)
 // {
 //     cout<<sql<<endl;

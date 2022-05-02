@@ -41,16 +41,27 @@ void onRequest(const HttpRequest& req, HttpResponse* resp)
         "<body><h1>Hello swl</h1>Now is " + now +
         "</body></html>");
   }
-  else if (req.path() == "/login")
+  else if (req.path() == "/StudentLogin")
   {  
     Dao dao;
     resp->setStatusCode(HttpResponse::k200Ok);
     resp->setStatusMessage("OK");
     resp->setContentType("text/plain");
     resp->addHeader("Server", "Muduo");  
-    resp->setBody(dao.login(req.body()));
+    resp->setBody(dao.StudentLogin(req.body()));
     resp->setCloseConnection(true);
   }
+  else if (req.path() == "/Submit")
+  {  
+    Dao dao;
+    resp->setStatusCode(HttpResponse::k200Ok);
+    resp->setStatusMessage("OK");
+    resp->setContentType("text/plain");
+    resp->addHeader("Server", "Muduo");  
+    resp->setBody(dao.StudentSubmit(req.body()));
+    resp->setCloseConnection(true);
+  }
+
   else if (req.path() == "/register")
   { 
     Dao dao;
