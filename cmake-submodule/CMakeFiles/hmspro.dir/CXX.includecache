@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hms/muduo-tutorial (copy)/src/Dao.cc
+/home/hms/muduo-tutorial/src/Dao.cc
 iostream
 -
 string
@@ -18,13 +18,13 @@ stdlib.h
 vector
 -
 Dao.h
-/home/hms/muduo-tutorial (copy)/src/Dao.h
+/home/hms/muduo-tutorial/src/Dao.h
 MyDB.h
-/home/hms/muduo-tutorial (copy)/src/MyDB.h
+/home/hms/muduo-tutorial/src/MyDB.h
 ajson/ajson.hpp
-/home/hms/muduo-tutorial (copy)/src/ajson/ajson.hpp
+/home/hms/muduo-tutorial/src/ajson/ajson.hpp
 
-/home/hms/muduo-tutorial (copy)/src/Dao.h
+/home/hms/muduo-tutorial/src/Dao.h
 iostream
 -
 string
@@ -32,9 +32,9 @@ string
 map
 -
 MyDB.h
-/home/hms/muduo-tutorial (copy)/src/MyDB.h
+/home/hms/muduo-tutorial/src/MyDB.h
 
-/home/hms/muduo-tutorial (copy)/src/HttpServer_test.cc
+/home/hms/muduo-tutorial/src/HttpServer_test.cc
 muduo/net/http/HttpServer.h
 -
 muduo/net/http/HttpRequest.h
@@ -52,21 +52,21 @@ map
 string.h
 -
 Dao.h
-/home/hms/muduo-tutorial (copy)/src/Dao.h
+/home/hms/muduo-tutorial/src/Dao.h
 MyDB.h
-/home/hms/muduo-tutorial (copy)/src/MyDB.h
+/home/hms/muduo-tutorial/src/MyDB.h
 
-/home/hms/muduo-tutorial (copy)/src/MyDB.cc
+/home/hms/muduo-tutorial/src/MyDB.cc
 iostream
 -
 string
 -
 MyDB.h
-/home/hms/muduo-tutorial (copy)/src/MyDB.h
+/home/hms/muduo-tutorial/src/MyDB.h
 Dao.h
-/home/hms/muduo-tutorial (copy)/src/Dao.h
+/home/hms/muduo-tutorial/src/Dao.h
 
-/home/hms/muduo-tutorial (copy)/src/MyDB.h
+/home/hms/muduo-tutorial/src/MyDB.h
 iostream
 -
 string
@@ -76,9 +76,9 @@ mysql.h
 vector
 -
 Dao.h
-/home/hms/muduo-tutorial (copy)/src/Dao.h
+/home/hms/muduo-tutorial/src/Dao.h
 
-/home/hms/muduo-tutorial (copy)/src/ajson/ajson.hpp
+/home/hms/muduo-tutorial/src/ajson/ajson.hpp
 array
 -
 cstdint

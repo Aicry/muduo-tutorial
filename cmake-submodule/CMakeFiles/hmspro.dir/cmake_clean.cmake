@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o"
-  "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o"
-  "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o"
+  "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o"
+  "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o"
+  "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o"
   "hmspro.pdb"
   "hmspro"
 )

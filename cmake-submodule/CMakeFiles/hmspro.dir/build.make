@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/hms/muduo-tutorial (copy)/cmake-submodule"
+CMAKE_SOURCE_DIR = /home/hms/muduo-tutorial/cmake-submodule
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/hms/muduo-tutorial (copy)/cmake-submodule"
+CMAKE_BINARY_DIR = /home/hms/muduo-tutorial/cmake-submodule
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hmspro.dir/depend.make
@@ -57,90 +57,90 @@ include CMakeFiles/hmspro.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hmspro.dir/flags.make
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o: CMakeFiles/hmspro.dir/flags.make
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o: /home/hms/muduo-tutorial\ (copy)/src/HttpServer_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o" -c "/home/hms/muduo-tutorial (copy)/src/HttpServer_test.cc"
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o: CMakeFiles/hmspro.dir/flags.make
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o: /home/hms/muduo-tutorial/src/HttpServer_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o -c /home/hms/muduo-tutorial/src/HttpServer_test.cc
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hms/muduo-tutorial (copy)/src/HttpServer_test.cc" > "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.i"
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hms/muduo-tutorial/src/HttpServer_test.cc > CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.i
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hms/muduo-tutorial (copy)/src/HttpServer_test.cc" -o "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.s"
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hms/muduo-tutorial/src/HttpServer_test.cc -o CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.s
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o.requires:
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o.requires:
 
-.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o.requires
+.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o.requires
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o.provides: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o.provides.build"
-.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o.provides
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o.provides: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o.requires
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o.provides.build
+.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o.provides
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o.provides.build: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o
-
-
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o: CMakeFiles/hmspro.dir/flags.make
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o: /home/hms/muduo-tutorial\ (copy)/src/MyDB.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o" -c "/home/hms/muduo-tutorial (copy)/src/MyDB.cc"
-
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hms/muduo-tutorial (copy)/src/MyDB.cc" > "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.i"
-
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hms/muduo-tutorial (copy)/src/MyDB.cc" -o "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.s"
-
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o.requires:
-
-.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o.requires
-
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o.provides: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o.requires
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o.provides.build"
-.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o.provides
-
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o.provides.build: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o.provides.build: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o
 
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o: CMakeFiles/hmspro.dir/flags.make
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o: /home/hms/muduo-tutorial\ (copy)/src/Dao.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o" -c "/home/hms/muduo-tutorial (copy)/src/Dao.cc"
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o: CMakeFiles/hmspro.dir/flags.make
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o: /home/hms/muduo-tutorial/src/MyDB.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o -c /home/hms/muduo-tutorial/src/MyDB.cc
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hms/muduo-tutorial (copy)/src/Dao.cc" > "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.i"
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hms/muduo-tutorial/src/MyDB.cc > CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.i
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hms/muduo-tutorial (copy)/src/Dao.cc" -o "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.s"
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hms/muduo-tutorial/src/MyDB.cc -o CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.s
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o.requires:
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o.requires:
 
-.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o.requires
+.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o.requires
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o.provides: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o.requires
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o.provides.build"
-.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o.provides
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o.provides: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o.requires
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o.provides.build
+.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o.provides
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o.provides.build: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o.provides.build: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o
+
+
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o: CMakeFiles/hmspro.dir/flags.make
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o: /home/hms/muduo-tutorial/src/Dao.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o -c /home/hms/muduo-tutorial/src/Dao.cc
+
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hms/muduo-tutorial/src/Dao.cc > CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.i
+
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hms/muduo-tutorial/src/Dao.cc -o CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.s
+
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o.requires:
+
+.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o.requires
+
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o.provides: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o.requires
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o.provides.build
+.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o.provides
+
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o.provides.build: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o
 
 
 # Object files for target hmspro
 hmspro_OBJECTS = \
-"CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o" \
-"CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o" \
-"CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o"
+"CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o" \
+"CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o" \
+"CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o"
 
 # External object files for target hmspro
 hmspro_EXTERNAL_OBJECTS =
 
-hmspro: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o
-hmspro: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o
-hmspro: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o
+hmspro: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o
+hmspro: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o
+hmspro: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o
 hmspro: CMakeFiles/hmspro.dir/build.make
 hmspro: muduo/lib/libmuduo_net.a
 hmspro: muduo/lib/libmuduo_base.a
@@ -148,7 +148,7 @@ hmspro: muduo/lib/libmuduo_http.a
 hmspro: muduo/lib/libmuduo_net.a
 hmspro: muduo/lib/libmuduo_base.a
 hmspro: CMakeFiles/hmspro.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable hmspro"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable hmspro"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hmspro.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,9 +156,9 @@ CMakeFiles/hmspro.dir/build: hmspro
 
 .PHONY : CMakeFiles/hmspro.dir/build
 
-CMakeFiles/hmspro.dir/requires: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o.requires
-CMakeFiles/hmspro.dir/requires: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o.requires
-CMakeFiles/hmspro.dir/requires: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o.requires
+CMakeFiles/hmspro.dir/requires: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o.requires
+CMakeFiles/hmspro.dir/requires: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o.requires
+CMakeFiles/hmspro.dir/requires: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o.requires
 
 .PHONY : CMakeFiles/hmspro.dir/requires
 
@@ -167,6 +167,6 @@ CMakeFiles/hmspro.dir/clean:
 .PHONY : CMakeFiles/hmspro.dir/clean
 
 CMakeFiles/hmspro.dir/depend:
-	cd "/home/hms/muduo-tutorial (copy)/cmake-submodule" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/hms/muduo-tutorial (copy)/cmake-submodule" "/home/hms/muduo-tutorial (copy)/cmake-submodule" "/home/hms/muduo-tutorial (copy)/cmake-submodule" "/home/hms/muduo-tutorial (copy)/cmake-submodule" "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles/hmspro.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/hms/muduo-tutorial/cmake-submodule && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hms/muduo-tutorial/cmake-submodule /home/hms/muduo-tutorial/cmake-submodule /home/hms/muduo-tutorial/cmake-submodule /home/hms/muduo-tutorial/cmake-submodule /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles/hmspro.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hmspro.dir/depend
 

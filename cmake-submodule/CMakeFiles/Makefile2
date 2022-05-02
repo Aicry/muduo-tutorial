@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/hms/muduo-tutorial (copy)/cmake-submodule"
+CMAKE_SOURCE_DIR = /home/hms/muduo-tutorial/cmake-submodule
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/hms/muduo-tutorial (copy)/cmake-submodule"
+CMAKE_BINARY_DIR = /home/hms/muduo-tutorial/cmake-submodule
 
 #=============================================================================
 # Target rules for target CMakeFiles/hmspro.dir
@@ -68,7 +68,7 @@ CMakeFiles/hmspro.dir/all: muduo/muduo/net/CMakeFiles/muduo_net.dir/all
 CMakeFiles/hmspro.dir/all: muduo/muduo/net/http/CMakeFiles/muduo_http.dir/all
 	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/depend
 	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" --progress-num=1,2,3,4 "Built target hmspro"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles --progress-num=1,2,3,4 "Built target hmspro"
 .PHONY : CMakeFiles/hmspro.dir/all
 
 # Include target in all.
@@ -78,9 +78,9 @@ all: CMakeFiles/hmspro.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hmspro.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hmspro.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 0
 .PHONY : CMakeFiles/hmspro.dir/rule
 
 # Convenience name for target.
@@ -144,7 +144,7 @@ muduo/muduo/base/preinstall:
 muduo/muduo/base/CMakeFiles/muduo_base.dir/all:
 	$(MAKE) -f muduo/muduo/base/CMakeFiles/muduo_base.dir/build.make muduo/muduo/base/CMakeFiles/muduo_base.dir/depend
 	$(MAKE) -f muduo/muduo/base/CMakeFiles/muduo_base.dir/build.make muduo/muduo/base/CMakeFiles/muduo_base.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target muduo_base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target muduo_base"
 .PHONY : muduo/muduo/base/CMakeFiles/muduo_base.dir/all
 
 # Include target in all.
@@ -154,9 +154,9 @@ all: muduo/muduo/base/CMakeFiles/muduo_base.dir/all
 
 # Build rule for subdir invocation for target.
 muduo/muduo/base/CMakeFiles/muduo_base.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 muduo/muduo/base/CMakeFiles/muduo_base.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 0
 .PHONY : muduo/muduo/base/CMakeFiles/muduo_base.dir/rule
 
 # Convenience name for target.
@@ -210,7 +210,7 @@ muduo/muduo/net/preinstall: muduo/muduo/net/protorpc/preinstall
 muduo/muduo/net/CMakeFiles/muduo_net.dir/all: muduo/muduo/base/CMakeFiles/muduo_base.dir/all
 	$(MAKE) -f muduo/muduo/net/CMakeFiles/muduo_net.dir/build.make muduo/muduo/net/CMakeFiles/muduo_net.dir/depend
 	$(MAKE) -f muduo/muduo/net/CMakeFiles/muduo_net.dir/build.make muduo/muduo/net/CMakeFiles/muduo_net.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" --progress-num=30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target muduo_net"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles --progress-num=30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target muduo_net"
 .PHONY : muduo/muduo/net/CMakeFiles/muduo_net.dir/all
 
 # Include target in all.
@@ -220,9 +220,9 @@ all: muduo/muduo/net/CMakeFiles/muduo_net.dir/all
 
 # Build rule for subdir invocation for target.
 muduo/muduo/net/CMakeFiles/muduo_net.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 36
 	$(MAKE) -f CMakeFiles/Makefile2 muduo/muduo/net/CMakeFiles/muduo_net.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 0
 .PHONY : muduo/muduo/net/CMakeFiles/muduo_net.dir/rule
 
 # Convenience name for target.
@@ -266,7 +266,7 @@ muduo/muduo/net/http/CMakeFiles/muduo_http.dir/all: muduo/muduo/base/CMakeFiles/
 muduo/muduo/net/http/CMakeFiles/muduo_http.dir/all: muduo/muduo/net/CMakeFiles/muduo_net.dir/all
 	$(MAKE) -f muduo/muduo/net/http/CMakeFiles/muduo_http.dir/build.make muduo/muduo/net/http/CMakeFiles/muduo_http.dir/depend
 	$(MAKE) -f muduo/muduo/net/http/CMakeFiles/muduo_http.dir/build.make muduo/muduo/net/http/CMakeFiles/muduo_http.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" --progress-num=21,22,23,24 "Built target muduo_http"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles --progress-num=21,22,23,24 "Built target muduo_http"
 .PHONY : muduo/muduo/net/http/CMakeFiles/muduo_http.dir/all
 
 # Include target in all.
@@ -276,9 +276,9 @@ all: muduo/muduo/net/http/CMakeFiles/muduo_http.dir/all
 
 # Build rule for subdir invocation for target.
 muduo/muduo/net/http/CMakeFiles/muduo_http.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 40
 	$(MAKE) -f CMakeFiles/Makefile2 muduo/muduo/net/http/CMakeFiles/muduo_http.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 0
 .PHONY : muduo/muduo/net/http/CMakeFiles/muduo_http.dir/rule
 
 # Convenience name for target.
@@ -323,7 +323,7 @@ muduo/muduo/net/inspect/CMakeFiles/muduo_inspect.dir/all: muduo/muduo/net/CMakeF
 muduo/muduo/net/inspect/CMakeFiles/muduo_inspect.dir/all: muduo/muduo/net/http/CMakeFiles/muduo_http.dir/all
 	$(MAKE) -f muduo/muduo/net/inspect/CMakeFiles/muduo_inspect.dir/build.make muduo/muduo/net/inspect/CMakeFiles/muduo_inspect.dir/depend
 	$(MAKE) -f muduo/muduo/net/inspect/CMakeFiles/muduo_inspect.dir/build.make muduo/muduo/net/inspect/CMakeFiles/muduo_inspect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" --progress-num=25,26,27,28,29 "Built target muduo_inspect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles --progress-num=25,26,27,28,29 "Built target muduo_inspect"
 .PHONY : muduo/muduo/net/inspect/CMakeFiles/muduo_inspect.dir/all
 
 # Include target in all.
@@ -333,9 +333,9 @@ all: muduo/muduo/net/inspect/CMakeFiles/muduo_inspect.dir/all
 
 # Build rule for subdir invocation for target.
 muduo/muduo/net/inspect/CMakeFiles/muduo_inspect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 45
 	$(MAKE) -f CMakeFiles/Makefile2 muduo/muduo/net/inspect/CMakeFiles/muduo_inspect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 0
 .PHONY : muduo/muduo/net/inspect/CMakeFiles/muduo_inspect.dir/rule
 
 # Convenience name for target.
@@ -379,7 +379,7 @@ muduo/muduo/net/protobuf/CMakeFiles/muduo_protobuf_codec.dir/all: muduo/muduo/ba
 muduo/muduo/net/protobuf/CMakeFiles/muduo_protobuf_codec.dir/all: muduo/muduo/net/CMakeFiles/muduo_net.dir/all
 	$(MAKE) -f muduo/muduo/net/protobuf/CMakeFiles/muduo_protobuf_codec.dir/build.make muduo/muduo/net/protobuf/CMakeFiles/muduo_protobuf_codec.dir/depend
 	$(MAKE) -f muduo/muduo/net/protobuf/CMakeFiles/muduo_protobuf_codec.dir/build.make muduo/muduo/net/protobuf/CMakeFiles/muduo_protobuf_codec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" --progress-num=50,51 "Built target muduo_protobuf_codec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles --progress-num=50,51 "Built target muduo_protobuf_codec"
 .PHONY : muduo/muduo/net/protobuf/CMakeFiles/muduo_protobuf_codec.dir/all
 
 # Include target in all.
@@ -389,9 +389,9 @@ all: muduo/muduo/net/protobuf/CMakeFiles/muduo_protobuf_codec.dir/all
 
 # Build rule for subdir invocation for target.
 muduo/muduo/net/protobuf/CMakeFiles/muduo_protobuf_codec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 38
 	$(MAKE) -f CMakeFiles/Makefile2 muduo/muduo/net/protobuf/CMakeFiles/muduo_protobuf_codec.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 0
 .PHONY : muduo/muduo/net/protobuf/CMakeFiles/muduo_protobuf_codec.dir/rule
 
 # Convenience name for target.
@@ -439,7 +439,7 @@ muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc.dir/all: muduo/muduo/net/prot
 muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc.dir/all: muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc_wire.dir/all
 	$(MAKE) -f muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc.dir/build.make muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc.dir/depend
 	$(MAKE) -f muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc.dir/build.make muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" --progress-num=52,53,54 "Built target muduo_protorpc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles --progress-num=52,53,54 "Built target muduo_protorpc"
 .PHONY : muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc.dir/all
 
 # Include target in all.
@@ -449,9 +449,9 @@ all: muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc.dir/all
 
 # Build rule for subdir invocation for target.
 muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 45
 	$(MAKE) -f CMakeFiles/Makefile2 muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 0
 .PHONY : muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc.dir/rule
 
 # Convenience name for target.
@@ -476,7 +476,7 @@ clean: muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc.dir/clean
 muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc_wire.dir/all:
 	$(MAKE) -f muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc_wire.dir/build.make muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc_wire.dir/depend
 	$(MAKE) -f muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc_wire.dir/build.make muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc_wire.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" --progress-num=55,56,57,58 "Built target muduo_protorpc_wire"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles --progress-num=55,56,57,58 "Built target muduo_protorpc_wire"
 .PHONY : muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc_wire.dir/all
 
 # Include target in all.
@@ -486,9 +486,9 @@ all: muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc_wire.dir/all
 
 # Build rule for subdir invocation for target.
 muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc_wire.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc_wire.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 0
 .PHONY : muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc_wire.dir/rule
 
 # Convenience name for target.

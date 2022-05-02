@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/hms/muduo-tutorial (copy)/cmake-submodule/muduo" -I/usr/include/mysql 
+CXX_INCLUDES = -I/home/hms/muduo-tutorial/cmake-submodule/muduo -I/usr/include/mysql 
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/hms/muduo-tutorial (copy)/cmake-submodule"
+CMAKE_SOURCE_DIR = /home/hms/muduo-tutorial/cmake-submodule
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/hms/muduo-tutorial (copy)/cmake-submodule"
+CMAKE_BINARY_DIR = /home/hms/muduo-tutorial/cmake-submodule
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hms/muduo-tutorial/cmake-submodule/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -260,86 +260,86 @@ muduo_protorpc_wire/fast:
 	$(MAKE) -f muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc_wire.dir/build.make muduo/muduo/net/protorpc/CMakeFiles/muduo_protorpc_wire.dir/build
 .PHONY : muduo_protorpc_wire/fast
 
-home/hms/muduo-tutorial_(copy)/src/Dao.o: home/hms/muduo-tutorial_(copy)/src/Dao.cc.o
+home/hms/muduo-tutorial/src/Dao.o: home/hms/muduo-tutorial/src/Dao.cc.o
 
-.PHONY : home/hms/muduo-tutorial_(copy)/src/Dao.o
-
-# target to build an object file
-home/hms/muduo-tutorial_(copy)/src/Dao.cc.o:
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o"
-.PHONY : home/hms/muduo-tutorial_(copy)/src/Dao.cc.o
-
-home/hms/muduo-tutorial_(copy)/src/Dao.i: home/hms/muduo-tutorial_(copy)/src/Dao.cc.i
-
-.PHONY : home/hms/muduo-tutorial_(copy)/src/Dao.i
-
-# target to preprocess a source file
-home/hms/muduo-tutorial_(copy)/src/Dao.cc.i:
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.i"
-.PHONY : home/hms/muduo-tutorial_(copy)/src/Dao.cc.i
-
-home/hms/muduo-tutorial_(copy)/src/Dao.s: home/hms/muduo-tutorial_(copy)/src/Dao.cc.s
-
-.PHONY : home/hms/muduo-tutorial_(copy)/src/Dao.s
-
-# target to generate assembly for a file
-home/hms/muduo-tutorial_(copy)/src/Dao.cc.s:
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.s"
-.PHONY : home/hms/muduo-tutorial_(copy)/src/Dao.cc.s
-
-home/hms/muduo-tutorial_(copy)/src/HttpServer_test.o: home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o
-
-.PHONY : home/hms/muduo-tutorial_(copy)/src/HttpServer_test.o
+.PHONY : home/hms/muduo-tutorial/src/Dao.o
 
 # target to build an object file
-home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o:
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o"
-.PHONY : home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o
+home/hms/muduo-tutorial/src/Dao.cc.o:
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o
+.PHONY : home/hms/muduo-tutorial/src/Dao.cc.o
 
-home/hms/muduo-tutorial_(copy)/src/HttpServer_test.i: home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.i
+home/hms/muduo-tutorial/src/Dao.i: home/hms/muduo-tutorial/src/Dao.cc.i
 
-.PHONY : home/hms/muduo-tutorial_(copy)/src/HttpServer_test.i
+.PHONY : home/hms/muduo-tutorial/src/Dao.i
 
 # target to preprocess a source file
-home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.i:
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.i"
-.PHONY : home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.i
+home/hms/muduo-tutorial/src/Dao.cc.i:
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.i
+.PHONY : home/hms/muduo-tutorial/src/Dao.cc.i
 
-home/hms/muduo-tutorial_(copy)/src/HttpServer_test.s: home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.s
+home/hms/muduo-tutorial/src/Dao.s: home/hms/muduo-tutorial/src/Dao.cc.s
 
-.PHONY : home/hms/muduo-tutorial_(copy)/src/HttpServer_test.s
+.PHONY : home/hms/muduo-tutorial/src/Dao.s
 
 # target to generate assembly for a file
-home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.s:
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.s"
-.PHONY : home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.s
+home/hms/muduo-tutorial/src/Dao.cc.s:
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.s
+.PHONY : home/hms/muduo-tutorial/src/Dao.cc.s
 
-home/hms/muduo-tutorial_(copy)/src/MyDB.o: home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o
+home/hms/muduo-tutorial/src/HttpServer_test.o: home/hms/muduo-tutorial/src/HttpServer_test.cc.o
 
-.PHONY : home/hms/muduo-tutorial_(copy)/src/MyDB.o
+.PHONY : home/hms/muduo-tutorial/src/HttpServer_test.o
 
 # target to build an object file
-home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o:
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o"
-.PHONY : home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o
+home/hms/muduo-tutorial/src/HttpServer_test.cc.o:
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o
+.PHONY : home/hms/muduo-tutorial/src/HttpServer_test.cc.o
 
-home/hms/muduo-tutorial_(copy)/src/MyDB.i: home/hms/muduo-tutorial_(copy)/src/MyDB.cc.i
+home/hms/muduo-tutorial/src/HttpServer_test.i: home/hms/muduo-tutorial/src/HttpServer_test.cc.i
 
-.PHONY : home/hms/muduo-tutorial_(copy)/src/MyDB.i
+.PHONY : home/hms/muduo-tutorial/src/HttpServer_test.i
 
 # target to preprocess a source file
-home/hms/muduo-tutorial_(copy)/src/MyDB.cc.i:
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.i"
-.PHONY : home/hms/muduo-tutorial_(copy)/src/MyDB.cc.i
+home/hms/muduo-tutorial/src/HttpServer_test.cc.i:
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.i
+.PHONY : home/hms/muduo-tutorial/src/HttpServer_test.cc.i
 
-home/hms/muduo-tutorial_(copy)/src/MyDB.s: home/hms/muduo-tutorial_(copy)/src/MyDB.cc.s
+home/hms/muduo-tutorial/src/HttpServer_test.s: home/hms/muduo-tutorial/src/HttpServer_test.cc.s
 
-.PHONY : home/hms/muduo-tutorial_(copy)/src/MyDB.s
+.PHONY : home/hms/muduo-tutorial/src/HttpServer_test.s
 
 # target to generate assembly for a file
-home/hms/muduo-tutorial_(copy)/src/MyDB.cc.s:
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.s"
-.PHONY : home/hms/muduo-tutorial_(copy)/src/MyDB.cc.s
+home/hms/muduo-tutorial/src/HttpServer_test.cc.s:
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.s
+.PHONY : home/hms/muduo-tutorial/src/HttpServer_test.cc.s
+
+home/hms/muduo-tutorial/src/MyDB.o: home/hms/muduo-tutorial/src/MyDB.cc.o
+
+.PHONY : home/hms/muduo-tutorial/src/MyDB.o
+
+# target to build an object file
+home/hms/muduo-tutorial/src/MyDB.cc.o:
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o
+.PHONY : home/hms/muduo-tutorial/src/MyDB.cc.o
+
+home/hms/muduo-tutorial/src/MyDB.i: home/hms/muduo-tutorial/src/MyDB.cc.i
+
+.PHONY : home/hms/muduo-tutorial/src/MyDB.i
+
+# target to preprocess a source file
+home/hms/muduo-tutorial/src/MyDB.cc.i:
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.i
+.PHONY : home/hms/muduo-tutorial/src/MyDB.cc.i
+
+home/hms/muduo-tutorial/src/MyDB.s: home/hms/muduo-tutorial/src/MyDB.cc.s
+
+.PHONY : home/hms/muduo-tutorial/src/MyDB.s
+
+# target to generate assembly for a file
+home/hms/muduo-tutorial/src/MyDB.cc.s:
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.s
+.PHONY : home/hms/muduo-tutorial/src/MyDB.cc.s
 
 # Help Target
 help:
@@ -361,15 +361,15 @@ help:
 	@echo "... muduo_protobuf_codec"
 	@echo "... muduo_protorpc"
 	@echo "... muduo_protorpc_wire"
-	@echo "... home/hms/muduo-tutorial_(copy)/src/Dao.o"
-	@echo "... home/hms/muduo-tutorial_(copy)/src/Dao.i"
-	@echo "... home/hms/muduo-tutorial_(copy)/src/Dao.s"
-	@echo "... home/hms/muduo-tutorial_(copy)/src/HttpServer_test.o"
-	@echo "... home/hms/muduo-tutorial_(copy)/src/HttpServer_test.i"
-	@echo "... home/hms/muduo-tutorial_(copy)/src/HttpServer_test.s"
-	@echo "... home/hms/muduo-tutorial_(copy)/src/MyDB.o"
-	@echo "... home/hms/muduo-tutorial_(copy)/src/MyDB.i"
-	@echo "... home/hms/muduo-tutorial_(copy)/src/MyDB.s"
+	@echo "... home/hms/muduo-tutorial/src/Dao.o"
+	@echo "... home/hms/muduo-tutorial/src/Dao.i"
+	@echo "... home/hms/muduo-tutorial/src/Dao.s"
+	@echo "... home/hms/muduo-tutorial/src/HttpServer_test.o"
+	@echo "... home/hms/muduo-tutorial/src/HttpServer_test.i"
+	@echo "... home/hms/muduo-tutorial/src/HttpServer_test.s"
+	@echo "... home/hms/muduo-tutorial/src/MyDB.o"
+	@echo "... home/hms/muduo-tutorial/src/MyDB.i"
+	@echo "... home/hms/muduo-tutorial/src/MyDB.s"
 .PHONY : help
 
 

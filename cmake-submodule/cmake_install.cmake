@@ -1,4 +1,4 @@
-# Install script for directory: /home/hms/muduo-tutorial (copy)/cmake-submodule
+# Install script for directory: /home/hms/muduo-tutorial/cmake-submodule
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hms/muduo-tutorial (copy)/cmake-submodule/muduo/cmake_install.cmake")
+  include("/home/hms/muduo-tutorial/cmake-submodule/muduo/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hms/muduo-tutorial (copy)/cmake-submodule/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hms/muduo-tutorial/cmake-submodule/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

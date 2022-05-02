@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hms/muduo-tutorial (copy)/src/Dao.cc" "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/Dao.cc.o"
-  "/home/hms/muduo-tutorial (copy)/src/HttpServer_test.cc" "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/HttpServer_test.cc.o"
-  "/home/hms/muduo-tutorial (copy)/src/MyDB.cc" "/home/hms/muduo-tutorial (copy)/cmake-submodule/CMakeFiles/hmspro.dir/home/hms/muduo-tutorial_(copy)/src/MyDB.cc.o"
+  "/home/hms/muduo-tutorial/src/Dao.cc" "/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/Dao.cc.o"
+  "/home/hms/muduo-tutorial/src/HttpServer_test.cc" "/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/HttpServer_test.cc.o"
+  "/home/hms/muduo-tutorial/src/MyDB.cc" "/home/hms/muduo-tutorial/cmake-submodule/CMakeFiles/hmspro.dir/home/hms/muduo-tutorial/src/MyDB.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,9 +18,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hms/muduo-tutorial (copy)/cmake-submodule/muduo/muduo/net/CMakeFiles/muduo_net.dir/DependInfo.cmake"
-  "/home/hms/muduo-tutorial (copy)/cmake-submodule/muduo/muduo/base/CMakeFiles/muduo_base.dir/DependInfo.cmake"
-  "/home/hms/muduo-tutorial (copy)/cmake-submodule/muduo/muduo/net/http/CMakeFiles/muduo_http.dir/DependInfo.cmake"
+  "/home/hms/muduo-tutorial/cmake-submodule/muduo/muduo/net/CMakeFiles/muduo_net.dir/DependInfo.cmake"
+  "/home/hms/muduo-tutorial/cmake-submodule/muduo/muduo/base/CMakeFiles/muduo_base.dir/DependInfo.cmake"
+  "/home/hms/muduo-tutorial/cmake-submodule/muduo/muduo/net/http/CMakeFiles/muduo_http.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
